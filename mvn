@@ -1,8 +1,7 @@
 sudo apt update
 sudo apt install maven
 mvn -version
-Step 1 mvn archetype:generate -DgroupId=com.example.demo -DartifactId=DemoProject
--DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+Step 1 mvn archetype:generate -DgroupId=com.example.demo -DartifactId=DemoProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 Step 2 Navigate to the Project Directory
 cd DemoProject
 Step 3
